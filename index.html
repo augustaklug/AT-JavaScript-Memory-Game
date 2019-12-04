@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="grid-container tabuleiro">
+
+        <div class="startButton">
+            <p class="buttons clickable" onClick="window.location.reload();">* Reiniciar *</p>
+        </div>
+        <div class="timeButton">
+            <p class="buttons">* Melhor tempo *</p>
+        </div>
+        <div class="timer">
+            <p class="buttons" id="timer">00:00</p>
+        </div>
+        <div class="bestTime">
+            <p class="buttons" id="bestTime">00:00</p>
+        </div>
+
+        <section class="memory-game board">
+            <div class="memory-card" data-front="android">
+                <img class="front-face" src="img/android.png" alt="Android" />
+                <img class="back-face" src="img/cross.png" alt="Cross" />
+            </div>
+            <div class="memory-card" data-front="android">
+                <img class="front-face" src="img/android.png" alt="Android" />
+                <img class="back-face" src="img/cross.png" alt="Cross" />
+            </div>
+
+            <div class="memory-card" data-front="chrome">
+                <img class="front-face" src="img/chrome.png" alt="chrome"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="chrome">
+                    <img class="front-face "src="img/chrome.png "alt="chrome"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="facebook">
+                    <img class="front-face "src="img/facebook.png "alt="Facebook"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="facebook">
+                    <img class="front-face "src="img/facebook.png "alt="Facebook"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="firefox">
+                    <img class="front-face "src="img/firefox.png "alt="Firefox"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="firefox">
+                    <img class="front-face "src="img/firefox.png "alt="Firefox"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="googleplus">
+                    <img class="front-face "src="img/googleplus.png "alt="googleplus"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="googleplus">
+                    <img class="front-face "src="img/googleplus.png "alt="googleplus"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="html5">
+                    <img class="front-face "src="img/html5.png "alt="HTML5"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="html5">
+                    <img class="front-face "src="img/html5.png "alt="HTML5"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="twitter">
+                    <img class="front-face "src="img/twitter.png "alt="Twitter"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="twitter">
+                    <img class="front-face "src="img/twitter.png "alt="Twitter"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+
+                <div class="memory-card" data-front="windows">
+                    <img class="front-face "src="img/windows.png "alt="Windows"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+                <div class="memory-card" data-front="windows">
+                    <img class="front-face "src="img/windows.png "alt="Windows"/>
+                    <img class="back-face "src="img/cross.png "alt="Cross"/>
+                </div>
+            </section>
+        </div>
+        <script src="scripts.js "></script>
+        <script src="jquery-3.4.1.min.js "></script>
+    </body>
+</html>
